@@ -19,6 +19,8 @@ public class SampleController {
     }
 
     public static void main(String[] args) throws Exception {
+        // SpringApplication will bootstrap our application,
+        // starting Spring which will in turn start the auto-configured Tomcat web server
         SpringApplication.run(SampleController.class, args);
     }
 }
